@@ -1,0 +1,25 @@
+﻿<Window x:Class="AplikacjaFormularz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplikacjaFormularz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBoxImie" HorizontalAlignment="Left" Margin="53,125,0,0" Text="Podaj swoje Imię" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxNazwisko" HorizontalAlignment="Left" Margin="53,178,0,0" Text="Podaj swoje nazwisko" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxWiek" HorizontalAlignment="Left" Margin="53,234,0,0" Text="Podaj swój wiek" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Imię" HorizontalAlignment="Left" Margin="53,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Nazwisko" HorizontalAlignment="Left" Margin="53,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Wiek" HorizontalAlignment="Left" Margin="53,208,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBoxPlec" HorizontalAlignment="Left" Margin="53,285,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Kobieta"/>
+            <ComboBoxItem Content="Mężczyzna"/>
+        </ComboBox>
+        <Button x:Name="button" Content="Wyświetl" HorizontalAlignment="Left" Margin="356,369,0,0" VerticalAlignment="Top" Width="55" Click="button_Click"/>
+        <Label x:Name="label3" Content="Wynik" HorizontalAlignment="Left" Margin="526,94,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="WynikTextBlock" HorizontalAlignment="Left" Margin="526,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

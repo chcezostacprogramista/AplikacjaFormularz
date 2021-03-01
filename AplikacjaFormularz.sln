@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplikacjaFormularz", "AplikacjaFormularz\AplikacjaFormularz.csproj", "{035D70EA-01EB-4444-A117-9E93B3DAEEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035D70EA-01EB-4444-A117-9E93B3DAEEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035D70EA-01EB-4444-A117-9E93B3DAEEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035D70EA-01EB-4444-A117-9E93B3DAEEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035D70EA-01EB-4444-A117-9E93B3DAEEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF5186D7-140A-4FC5-94B6-71437AD82922}
+	EndGlobalSection
+EndGlobal
